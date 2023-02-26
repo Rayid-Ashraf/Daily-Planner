@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    *{
+        font-family: 'Roboto Mono', monospace;
+        outline: none;
+        @apply text-stone-700
+    }
+    h1{
+        
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        @apply sm:text-xl
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+        @apply text-neutral-600 sm:text-xl
+    }
+    h4{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+  }
+@layer utilities{
+    .field-shadow{
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+@layer components{
+    .goal, .habit{
+       @apply border border-gray-300 flex items-center gap-3 p-4 rounded-sm 
+    }
+}

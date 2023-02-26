@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAILY PLANNER</title>
+    <meta name="description"
+        content="Daily Planner is the ultimate tool for anyone looking to manage their time more effectively and stay organized throughout the day. It is a useful tool for individuals who want to stay organized and achieve their goals. The website comprises several features that help users create a schedule, set goals and habits, and keep track of their daily tasks.">
+    <meta name="description" content="daily, planner, time, table, schedule, habits, goals, todo, notion, day">
+    <link rel="shortcut icon" href="./assets/sun.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="./assets/sun.svg" />
+    <script defer src="./dist/bundle.js"></script>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body spellcheck="false" class="m-auto px-4 pt-4 max-w-[1000px] sm:px-8 sm:pt-8">
+    <h1 class="mb-12">DAILY PLANNER</h1>
+    <div class="flex justify-between items-center mb-12 gap-2">
+        <div class="flex gap-3 items-center">
+            <h3 class="text-stone-700">DATE</h3>
+            <time class="text-neutral-600 text-2xl sm:text-xl" id="date"></time>
+        </div>
+        <div id="logout-btn" class="border text-gray-500 border-gray-400 rounded-sm px-1 text-sm cursor-pointer">Logout
+        </div>
+    </div>
+    <main class="flex gap-12 flex-col sm:flex-row">
+        <div class="sm:w-3/5">
+            <h3 class="mb-1 text-stone-700">SCHEDULE</h3>
+            <div id="plans-div">
+                
+            </div>
+            <div class="border-t border-gray-300">
+                <button
+                    class="flex items-center gap-2 h-8 text-neutral-400 hover:bg-zinc-300 w-full rounded-md pl-1 mt-2"
+                    id="add-plan"><img class="w-5" src="./assets/plus-icon.png" alt="icon"> Add New</button>
+            </div>
+
+        </div>
+        <div class="sm:w-2/5">
+            <div>
+                <h3 class="border-b border-gray-300 mb-3 pb-1 text-slate-700">GOALS</h3>
+                <div class="mb-12 flex flex-col gap-2" id="goals-div">
+                    <div class="goal">
+                        <h2 class="sm:text-xl">1.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                    <div class="goal">
+                        <h2 class="sm:text-xl">2.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                    <div class="goal">
+                        <h2>3.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-right-block">
+                <h3 class="border-b border-gray-300 mb-3 pb-1 text-slate-700">Habits</h3>
+                <div class="mb-12 flex flex-col gap-2" id="habits-div">
+                    <div class="habit">
+                        <h2 class="sm:text-xl">1.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                    <div class="habit">
+                        <h2 class="sm:text-xl">2.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                    <div class="habit">
+                        <h2 class="sm:text-xl">3.</h2>
+                        <h3 class="sm:text-xl" contenteditable="true"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-right-block">
+                <h3 class="mb-1 text-stone-700">TO DO</h3>
+                <div class="" id="todos-div">
+
+                </div>
+            </div>
+            <div class="border-t border-gray-300"><button
+                    class="flex items-center gap-2 h-8 text-neutral-400 hover:bg-zinc-300 w-full rounded-md pl-1 mt-2"
+                    id="add-todo"><img src="./assets/plus-icon.png" class="w-5" alt="icon"> Add New</button>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="mt-5 flex flex-col items-center text-gray-500">
+        <h4>Inspired by <a target="_blank" class="underline" href="https://www.easlo.co/">Easlo</a> </h4>
+        <h4>Developed by <a target="_blank" class="underline" href="http://rayid.netlify.app">Rayid</a></h4>
+    </footer>
+</body>
+
+</html>

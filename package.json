@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "firebase": "^9.17.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build": "webpack --mode=development --watch"
+  },
+  "name": "daily-planner",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "_id": "daily-planner@1.0.0"
+}

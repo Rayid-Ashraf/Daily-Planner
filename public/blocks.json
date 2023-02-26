@@ -1,0 +1,114 @@
+[
+    {
+        "todos": [
+            {
+                "isChecked": false,
+                "task": "Schedule meeting"
+            },
+            {
+                "task": "Take out the trash",
+                "isChecked": false
+            }
+        ],
+        "plans": [
+            {
+                "activity": "Wakeup ",
+                "time": "07.0A"
+            },
+            {
+                "time": "07.3A",
+                "activity": "Workout"
+            },
+            {
+                "activity": "Read",
+                "time": "08.0A"
+            },
+            {
+                "activity": "Breakfast",
+                "time": "08.3A"
+            },
+            {
+                "time": "09.0A",
+                "activity": ""
+            },
+            {
+                "time": "10.0A",
+                "activity": ""
+            },
+            {
+                "activity": "",
+                "time": "11.0A"
+            },
+            {
+                "activity": "",
+                "time": "12.0P"
+            },
+            {
+                "time": "01.0P",
+                "activity": ""
+            },
+            {
+                "time": "02.0P",
+                "activity": ""
+            },
+            {
+                "time": "03.0P",
+                "activity": ""
+            },
+            {
+                "time": "04.0P",
+                "activity": ""
+            },
+            {
+                "time": "05.0P",
+                "activity": ""
+            },
+            {
+                "activity": "",
+                "time": "06.0P"
+            },
+            {
+                "activity": "",
+                "time": "07.0P"
+            },
+            {
+                "activity": "",
+                "time": "08.0P"
+            },
+            {
+                "activity": "",
+                "time": "09.0P"
+            },
+            {
+                "activity": "",
+                "time": "10.0P"
+            },
+            {
+                "time": "11.0P",
+                "activity": ""
+            }
+        ],
+        "goals": [
+            {
+                "goal": "Write 1,000 words"
+            },
+            {
+                "goal": "Read 15 pages"
+            },
+            {
+                "goal": "Run 10 miles"
+            }
+        ],
+        "habits": [
+            {
+                "habit": "Drink 2 litres of water"
+            },
+            {
+                "habit": "Make my bed"
+            },
+            {
+                "habit": "Clean my desk"
+            }
+        ]
+    }
+]
