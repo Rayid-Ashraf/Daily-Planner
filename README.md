@@ -2,7 +2,7 @@
 Introducing the perfect tool to help you manage your daily routine efficiently - the Daily Planner website.  It is a useful tool for individuals who want to stay organized and achieve their goals. The website comprises several features that help users create a schedule, set goals and habits, and keep track of their daily tasks.
 
 ## Features
--   User-friendly interface for easy.
+-   User-friendly interface for easygit.
 -   Create and manage daily schedule.
 -   Set up to three specific goals that you want to achieve.
 -   Set up to three daily habits that you want to develop
